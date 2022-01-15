@@ -1,8 +1,8 @@
 import React from 'react';
 import Avatar from '@mui/material/Avatar';
-import DonutLargeIcon from '@mui/icons/DonutLargeIcon';
-// import ChatIcon from '@mui/icons-material/Chat';
-// import MoreVertIcon from '@mui/icons-material/MoreVert';
+import DataSaverOnIcon from '@mui/icons-material/DataSaverOn';
+import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
+import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 const SideBar = () => {
   return (
@@ -10,9 +10,9 @@ const SideBar = () => {
       <div className="sidebar__header">
         <Avatar />
        <div className="sidebar__headerRight">
-         <DonutLargeIcon />
-         {/* <ChatIcon /> */}
-         {/* <MoreVertIcon /> */}
+        <DataSaverOnIcon />
+        <ChatBubbleOutlineIcon />
+        <MoreVertIcon />
        </div>
       </div>
 
