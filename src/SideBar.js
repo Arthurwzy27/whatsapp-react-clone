@@ -1,8 +1,8 @@
 import React from 'react';
 import { Avatar } from '@material-ui/core';
-import DonutLargeIcon from '../@material-ui/icons/DonutLargeIcon';
-import ChatIcon from '../@material-ui/icons/Chat';
-import MoreVertIcon from '../@material-ui/icons/MoreVertIcon';
+import DonutLargeIcon from '@mui/icons/DonutLargeIcon';
+import ChatIcon from '@mui/icons/Chat';
+import MoreVertIcon from '@material-ui/icons/MoreVertIcon';
 
 const SideBar = () => {
   return (
