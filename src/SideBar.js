@@ -1,8 +1,8 @@
 import React from 'react';
-import { Avatar } from '@material-ui/core';
+import Avatar from '@mui/material/Avatar';
 import DonutLargeIcon from '@mui/icons/DonutLargeIcon';
-import ChatIcon from '@mui/icons/Chat';
-import MoreVertIcon from '@material-ui/icons/MoreVertIcon';
+// import ChatIcon from '@mui/icons-material/Chat';
+// import MoreVertIcon from '@mui/icons-material/MoreVert';
 
 const SideBar = () => {
   return (
@@ -11,8 +11,8 @@ const SideBar = () => {
         <Avatar />
        <div className="sidebar__headerRight">
          <DonutLargeIcon />
-         <ChatIcon />
-         <MoreVertIcon />
+         {/* <ChatIcon /> */}
+         {/* <MoreVertIcon /> */}
        </div>
       </div>
 
