@@ -3,7 +3,7 @@ import './App.scss';
 
 const App = () => {
   return (
-    <div>
+    <div className="app__body">
       <h1>Whatsapp clone</h1>
     </div>
   )
