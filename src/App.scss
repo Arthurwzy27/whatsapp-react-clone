@@ -2,7 +2,14 @@
   margin: 0;
 }
 
-.app__body {
+.App {
   background-color: #dadbd3;
   height: 100vh;
+}
+
+.app__body {
+  display: flex;
+  background-color: #ededed;
+  height: 90vh;
+  width: 90vh;
 }
