@@ -1,0 +1,32 @@
+.sidebar {
+  margin: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+
+
+  .sidebar__header {
+
+  }
+
+  .sidebar__headerRight {
+    display: flex;
+    align-items: center;
+    justify-items: right;
+  }
+
+  .sidebar__search {
+    display: flex;
+    background-color: rgba(172, 172, 172, 0.253);
+    width: 13rem;
+    border-radius: 50px;
+    padding-left: 10px;
+    height: 2rem;
+    align-items: center;
+
+    p {
+      color: rgb(65, 62, 62);
+      padding-left: 12px;
+    }
+  }
+}
